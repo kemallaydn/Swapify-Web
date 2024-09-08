@@ -1,0 +1,30 @@
+.screenshots {
+    padding: 80px 0;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .screenshots h2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+  }
+  
+  .screenshots-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .screenshots-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .screenshots-container img:hover {
+    transform: scale(1.05);
+  }
+  
